@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hero Wars Roster Snapshot</title>
+    <link rel="stylesheet" href="viewer.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">Dominion Era</p>
+        <h1>Roster Snapshot</h1>
+        <p id="snapshot-meta" class="snapshot-meta">No snapshot loaded</p>
+      </div>
+      <div class="header-actions">
+        <label class="button button-secondary" for="json-file">Open JSON</label>
+        <input id="json-file" type="file" accept="application/json,.json" hidden>
+        <button id="download-json" class="button button-primary" type="button" disabled>
+          Download JSON
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="empty-state" class="empty-state">
+        <strong>No snapshot loaded.</strong>
+        <span>Use <b>Open JSON</b> in the upper-right corner to choose one.</span>
+      </section>
+
+      <section id="snapshot-view" hidden>
+        <nav class="view-tabs" aria-label="Snapshot sections">
+          <button class="view-tab active" type="button" data-view="overview">Overview</button>
+          <button class="view-tab" type="button" data-view="heroes">Heroes</button>
+          <button class="view-tab" type="button" data-view="titans">Titans</button>
+          <button class="view-tab" type="button" data-view="pets">Pets</button>
+          <button class="view-tab" type="button" data-view="inventory">Inventory</button>
+          <button class="view-tab" type="button" data-view="teams">Teams</button>
+          <button class="view-tab" type="button" data-view="other">Other</button>
+        </nav>
+
+        <div class="summary-grid" aria-label="Roster totals">
+          <button class="summary-card" type="button" data-view="heroes">
+            <span class="summary-label">Heroes</span>
+            <strong id="hero-count">0</strong>
+          </button>
+          <button class="summary-card" type="button" data-view="titans">
+            <span class="summary-label">Titans</span>
+            <strong id="titan-count">0</strong>
+          </button>
+          <button class="summary-card" type="button" data-view="pets">
+            <span class="summary-label">Pets</span>
+            <strong id="pet-count">0</strong>
+          </button>
+        </div>
+
+        <div id="entity-toolbar" class="toolbar" hidden>
+          <label class="search-field">
+            <span class="sr-only">Search roster</span>
+            <input id="search" type="search" placeholder="Search by name or ID">
+          </label>
+          <label class="sort-field">
+            <span>Sort</span>
+            <select id="sort">
+              <option value="power-desc">Power: high to low</option>
+              <option value="level-desc">Level: high to low</option>
+              <option value="name-asc">Name: A–Z</option>
+              <option value="id-asc">ID: low to high</option>
+            </select>
+          </label>
+          <span id="visible-count" class="visible-count"></span>
+        </div>
+
+        <div id="overview-view"></div>
+        <div id="entity-grid" class="entity-grid" hidden></div>
+        <div id="inventory-view" hidden></div>
+        <div id="teams-view" hidden></div>
+        <div id="other-view" hidden></div>
+
+        <section class="complete-json">
+          <details>
+            <summary>View complete snapshot JSON</summary>
+            <pre id="complete-json"></pre>
+          </details>
+        </section>
+      </section>
+
+      <section id="error-box" class="error-box" role="alert" hidden></section>
+    </main>
+
+    <template id="entity-card-template">
+      <article class="entity-card">
+        <div class="entity-heading">
+          <div class="portrait-wrap">
+            <img class="entity-portrait" alt="" loading="lazy">
+            <span class="portrait-fallback" aria-hidden="true">?</span>
+          </div>
+          <div>
+            <p class="entity-id"></p>
+            <h2 class="entity-name"></h2>
+          </div>
+          <span class="entity-type"></span>
+        </div>
+        <dl class="stat-grid"></dl>
+        <details class="entity-details">
+          <summary>All data</summary>
+          <div class="detail-sections"></div>
+          <details class="raw-json">
+            <summary>Raw JSON</summary>
+            <pre></pre>
+          </details>
+        </details>
+      </article>
+    </template>
+
+    <script type="module" src="viewer.js"></script>
+  </body>
+</html>

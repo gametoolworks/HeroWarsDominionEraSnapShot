@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "Hero Wars Snapshot",
+  "version": "1.0.0",
+  "minimum_chrome_version": "111",
+  "description": "Create a private, local JSON snapshot of your Hero Wars Dominion Era account.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://www.hero-wars.com/*",
+    "https://heroeswb-a-cdn.nextersglobal.com/*",
+    "https://heroeswb-a-v2.akamaized.net/*",
+    "https://d25cbez24ewnva.cloudfront.net/*"
+  ],
+  "action": {
+    "default_title": "Hero Wars Snapshot",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icon-16.png",
+      "32": "assets/icon-32.png",
+      "48": "assets/icon-48.png",
+      "128": "assets/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "assets/icon-16.png",
+    "32": "assets/icon-32.png",
+    "48": "assets/icon-48.png",
+    "128": "assets/icon-128.png"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.hero-wars.com/*"],
+      "js": ["page-listener.js"],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": true
+    },
+    {
+      "matches": ["https://www.hero-wars.com/*"],
+      "js": ["bridge.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}

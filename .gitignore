@@ -1,0 +1,15 @@
+# HAR captures can contain live session credentials and personal information.
+*.har
+
+# Local snapshots and distributable build output.
+roster*.json
+heroes*.json
+dist/
+*.zip
+
+# Local development/editor files.
+.vscode/
+.agents/
+tools/
+.DS_Store
+Thumbs.db
