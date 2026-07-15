@@ -11,15 +11,15 @@
 
 ## 2. Public repository and policy URLs
 
-Push this project to a public repository such as:
+This project's public repository is:
 
-`https://github.com/GameToolWorks/hero-wars-snapshot`
+`https://github.com/gametoolworks/HeroWarsDominionEraSnapShot`
 
 Use these dashboard URLs after confirming they resolve publicly:
 
-- Homepage: `https://github.com/GameToolWorks/hero-wars-snapshot`
-- Support: `https://github.com/GameToolWorks/hero-wars-snapshot/issues`
-- Privacy policy: `https://github.com/GameToolWorks/hero-wars-snapshot/blob/main/PRIVACY.md`
+- Homepage: `https://github.com/gametoolworks/HeroWarsDominionEraSnapShot`
+- Support: `https://github.com/gametoolworks/HeroWarsDominionEraSnapShot/issues`
+- Privacy policy: `https://github.com/gametoolworks/HeroWarsDominionEraSnapShot/blob/main/PRIVACY.md`
 
 Enable GitHub Issues before using the support URL.
 

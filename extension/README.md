@@ -18,6 +18,9 @@ The optional **Support for $1** button opens the Game Tool Works Buy Me a Coffee
 page in a new tab. It does not unlock features, run automatically, or transmit
 snapshot data.
 
+The **Feedback & Help** button opens this project's public GitHub Issues page.
+No snapshot data is included in the link or submitted automatically.
+
 If Chrome reports an extension error after files change, click its **Reload**
 button on `chrome://extensions`.
 

@@ -39,8 +39,9 @@ replaced, the extension's storage is cleared, or the extension is removed.
 
 ## Contact
 
-Feedback and privacy questions may be submitted through the public GitHub
-repository maintained by Game Tool Works.
+Feedback and privacy questions may be submitted through the
+[public GitHub repository](https://github.com/gametoolworks/HeroWarsDominionEraSnapShot/issues)
+maintained by Game Tool Works.
 
 Hero Wars Snapshot's use of information received from Chrome APIs adheres to
 the Chrome Web Store User Data Policy, including its Limited Use requirements.

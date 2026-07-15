@@ -1,6 +1,7 @@
 const captureButton = document.querySelector("#capture");
 const openButton = document.querySelector("#open");
 const supportButton = document.querySelector("#support");
+const feedbackButton = document.querySelector("#feedback");
 const siteMessage = document.querySelector("#site-message");
 const status = document.querySelector("#status");
 
@@ -41,6 +42,11 @@ openButton.addEventListener("click", async () => {
 
 supportButton.addEventListener("click", async () => {
   await chrome.tabs.create({ url: "https://buymeacoffee.com/gametoolworks" });
+  window.close();
+});
+
+feedbackButton.addEventListener("click", async () => {
+  await chrome.tabs.create({ url: "https://github.com/gametoolworks/HeroWarsDominionEraSnapShot/issues" });
   window.close();
 });
 
