@@ -22,32 +22,34 @@
   },
   "inventory": {
     "consumable": [
-      { "id": 1, "name": "EXP Potion", "amount": 25 },
-      { "id": 2, "name": "Large EXP Potion", "amount": 10 },
-      { "id": 3, "name": "Pet Potion", "amount": 40 },
-      { "id": 4, "name": "Pet Summoning Egg", "amount": 6 },
-      { "id": 5, "name": "Spark of Power", "amount": 150 },
-      { "id": 6, "name": "Titan Artifact Sphere", "amount": 8 }
+      { "id": 9, "name": "Smaller EXP potion", "amount": 25 },
+      { "id": 10, "name": "EXP potion", "amount": 18 },
+      { "id": 11, "name": "Big EXP potion", "amount": 10 },
+      { "id": 85, "name": "Pet Potion", "amount": 40 },
+      { "id": 90, "name": "Pet Summoning Egg", "amount": 6 },
+      { "id": 24, "name": "Spark of Power", "amount": 150 },
+      { "id": 55, "name": "Titan Artifact Sphere", "amount": 8 },
+      { "id": 86, "name": "Chaos Particle", "amount": 20 }
     ],
     "gear": [
-      { "id": 101, "name": "Enchanted Lute", "amount": 2 },
-      { "id": 102, "name": "Desert Blade", "amount": 1 },
-      { "id": 103, "name": "Pastor's Seal", "amount": 3 },
-      { "id": 104, "name": "Hand of Glory", "amount": 1 }
+      { "id": 1, "name": "Orcish Knuckles", "amount": 3 },
+      { "id": 60, "name": "Enchanted Lute", "amount": 2 },
+      { "id": 96, "name": "Desert Blade", "amount": 1 },
+      { "id": 111, "name": "Hand of Glory", "amount": 1 }
     ],
-    "artifactFragment": [
-      { "id": 201, "name": "Weapon Artifact Fragment", "amount": 18 },
-      { "id": 202, "name": "Book Artifact Fragment", "amount": 12 },
-      { "id": 203, "name": "Ring Artifact Fragment", "amount": 9 }
+    "fragmentArtifact": [
+      { "id": 1001, "name": "Selias' Legacy", "amount": 18 },
+      { "id": 1002, "name": "Harunian Sword", "amount": 12 },
+      { "id": 1003, "name": "Octavia's Blades", "amount": 9 }
     ],
-    "titanArtifactFragment": [
-      { "id": 301, "name": "Siungur's Mace Fragment", "amount": 14 },
-      { "id": 302, "name": "Andvari's Bulwark Fragment", "amount": 11 }
+    "fragmentTitanArtifact": [
+      { "id": 1001, "name": "Siungur's Aegis", "amount": 14 },
+      { "id": 1005, "name": "Ragni's Hammer", "amount": 11 }
     ],
     "petGear": [
-      { "id": 401, "name": "Dawnstone", "amount": 4 },
-      { "id": 402, "name": "Moonstone", "amount": 3 },
-      { "id": 403, "name": "Chaos Particle", "amount": 20 }
+      { "id": 2, "name": "Duskstone", "amount": 4 },
+      { "id": 8, "name": "Dawnstone", "amount": 4 },
+      { "id": 13, "name": "Moonstone", "amount": 3 }
     ]
   },
   "teams": [
