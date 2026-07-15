@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 4,
+  "source": "Synthetic demonstration data for Chrome Web Store screenshots",
+  "exportedAtUtc": "2026-07-14T12:00:00.000Z",
+  "heroCount": 12,
+  "titanCount": 8,
+  "petCount": 4,
+  "account": {
+    "level": 130,
+    "experience": 1250000,
+    "maxLevel": 130,
+    "gold": 1000000,
+    "emeralds": 2500,
+    "vipPoints": 0,
+    "maxHeroPower": 500000,
+    "maxTitanPower": 300000,
+    "resources": [
+      { "id": 1, "name": "stamina", "amount": 120, "boughtToday": 0 },
+      { "id": 2, "name": "arenaAttempts", "amount": 5, "boughtToday": 0 },
+      { "id": 3, "name": "towerAttempts", "amount": 3, "boughtToday": 0 }
+    ]
+  },
+  "inventory": {
+    "consumable": [
+      { "id": 1, "name": "EXP Potion", "amount": 25 },
+      { "id": 2, "name": "Large EXP Potion", "amount": 10 },
+      { "id": 3, "name": "Pet Potion", "amount": 40 },
+      { "id": 4, "name": "Pet Summoning Egg", "amount": 6 },
+      { "id": 5, "name": "Spark of Power", "amount": 150 },
+      { "id": 6, "name": "Titan Artifact Sphere", "amount": 8 }
+    ],
+    "gear": [
+      { "id": 101, "name": "Enchanted Lute", "amount": 2 },
+      { "id": 102, "name": "Desert Blade", "amount": 1 },
+      { "id": 103, "name": "Pastor's Seal", "amount": 3 },
+      { "id": 104, "name": "Hand of Glory", "amount": 1 }
+    ],
+    "artifactFragment": [
+      { "id": 201, "name": "Weapon Artifact Fragment", "amount": 18 },
+      { "id": 202, "name": "Book Artifact Fragment", "amount": 12 },
+      { "id": 203, "name": "Ring Artifact Fragment", "amount": 9 }
+    ],
+    "titanArtifactFragment": [
+      { "id": 301, "name": "Siungur's Mace Fragment", "amount": 14 },
+      { "id": 302, "name": "Andvari's Bulwark Fragment", "amount": 11 }
+    ],
+    "petGear": [
+      { "id": 401, "name": "Dawnstone", "amount": 4 },
+      { "id": 402, "name": "Moonstone", "amount": 3 },
+      { "id": 403, "name": "Chaos Particle", "amount": 20 }
+    ]
+  },
+  "teams": [
+    {
+      "mode": "arena",
+      "squads": [[
+        { "id": 4, "name": "Astaroth" },
+        { "id": 8, "name": "Daredevil" },
+        { "id": 16, "name": "Dante" },
+        { "id": 48, "name": "Martha" },
+        { "id": 58, "name": "Sebastian" }
+      ]]
+    },
+    {
+      "mode": "grand",
+      "squads": [
+        [
+          { "id": 4, "name": "Astaroth" },
+          { "id": 16, "name": "Dante" },
+          { "id": 48, "name": "Martha" },
+          { "id": 58, "name": "Sebastian" },
+          { "id": 68, "name": "Iris" }
+        ],
+        [
+          { "id": 2, "name": "Galahad" },
+          { "id": 20, "name": "Artemis" },
+          { "id": 7, "name": "Thea" },
+          { "id": 35, "name": "Jorgen" },
+          { "id": 13, "name": "Orion" }
+        ],
+        [
+          { "id": 1, "name": "Aurora" },
+          { "id": 43, "name": "Celeste" },
+          { "id": 3, "name": "Keira" },
+          { "id": 40, "name": "Nebula" },
+          { "id": 8, "name": "Daredevil" }
+        ]
+      ]
+    },
+    {
+      "mode": "titan_arena",
+      "squads": [[
+        { "id": 4000, "name": "Sigurd" },
+        { "id": 4010, "name": "Moloch" },
+        { "id": 4020, "name": "Angus" },
+        { "id": 4001, "name": "Nova" },
+        { "id": 4003, "name": "Hyperion" }
+      ]]
+    },
+    {
+      "mode": "dungeon_water",
+      "squads": [[
+        { "id": 4000, "name": "Sigurd" },
+        { "id": 4001, "name": "Nova" },
+        { "id": 4003, "name": "Hyperion" }
+      ]]
+    }
+  ],
+  "chestProgress": {
+    "heroArtifact": { "level": 5, "experience": 250 },
+    "titanArtifact": { "level": 4, "experience": 175 },
+    "pet": { "level": 3, "experience": 90 }
+  },
+  "heroes": [
+    { "id": 2, "name": "Galahad", "entityType": "hero", "level": 120, "power": 82000, "star": 6, "color": 18, "xp": 850000, "soulStones": 45, "skills": { "1": 120, "2": 120, "3": 100, "4": 80 } },
+    { "id": 20, "name": "Artemis", "entityType": "hero", "level": 115, "power": 76000, "star": 6, "color": 17, "xp": 740000, "soulStones": 22, "skills": { "1": 115, "2": 110, "3": 95, "4": 75 } },
+    { "id": 7, "name": "Thea", "entityType": "hero", "level": 110, "power": 68000, "star": 5, "color": 16, "xp": 650000, "soulStones": 80, "skills": { "1": 110, "2": 105, "3": 90, "4": 70 } },
+    { "id": 4, "name": "Astaroth", "entityType": "hero", "level": 130, "power": 105000, "star": 6, "color": 18, "xp": 1000000, "soulStones": 120, "skills": { "1": 130, "2": 130, "3": 130, "4": 130 } },
+    { "id": 8, "name": "Daredevil", "entityType": "hero", "level": 125, "power": 91000, "star": 6, "color": 18, "xp": 920000, "soulStones": 35, "skills": { "1": 125, "2": 125, "3": 110, "4": 100 } },
+    { "id": 1, "name": "Aurora", "entityType": "hero", "level": 118, "power": 79000, "star": 5, "color": 17, "xp": 780000, "soulStones": 60, "skills": { "1": 118, "2": 115, "3": 100, "4": 85 } },
+    { "id": 35, "name": "Jorgen", "entityType": "hero", "level": 120, "power": 84000, "star": 6, "color": 18, "xp": 850000, "soulStones": 40, "skills": { "1": 120, "2": 120, "3": 105, "4": 90 } },
+    { "id": 43, "name": "Celeste", "entityType": "hero", "level": 122, "power": 88000, "star": 6, "color": 18, "xp": 880000, "soulStones": 28, "skills": { "1": 122, "2": 120, "3": 108, "4": 95 } },
+    { "id": 3, "name": "Keira", "entityType": "hero", "level": 116, "power": 74000, "star": 5, "color": 17, "xp": 760000, "soulStones": 55, "skills": { "1": 116, "2": 112, "3": 98, "4": 82 } },
+    { "id": 16, "name": "Dante", "entityType": "hero", "level": 130, "power": 112000, "star": 6, "color": 18, "xp": 1000000, "soulStones": 150, "skills": { "1": 130, "2": 130, "3": 130, "4": 130 } },
+    { "id": 13, "name": "Orion", "entityType": "hero", "level": 112, "power": 71000, "star": 5, "color": 16, "xp": 690000, "soulStones": 70, "skills": { "1": 112, "2": 108, "3": 94, "4": 78 } },
+    { "id": 40, "name": "Nebula", "entityType": "hero", "level": 119, "power": 81000, "star": 6, "color": 17, "xp": 820000, "soulStones": 32, "skills": { "1": 119, "2": 116, "3": 102, "4": 88 } }
+  ],
+  "titans": [
+    { "id": 4000, "name": "Sigurd", "entityType": "titan", "level": 100, "power": 65000, "star": 6, "xp": 500000, "soulStones": 75, "element": "water" },
+    { "id": 4010, "name": "Moloch", "entityType": "titan", "level": 95, "power": 57000, "star": 6, "xp": 440000, "soulStones": 40, "element": "fire" },
+    { "id": 4020, "name": "Angus", "entityType": "titan", "level": 98, "power": 61000, "star": 6, "xp": 470000, "soulStones": 55, "element": "earth" },
+    { "id": 4001, "name": "Nova", "entityType": "titan", "level": 92, "power": 52000, "star": 5, "xp": 410000, "soulStones": 90, "element": "water" },
+    { "id": 4003, "name": "Hyperion", "entityType": "titan", "level": 100, "power": 72000, "star": 6, "xp": 500000, "soulStones": 30, "element": "water" },
+    { "id": 4013, "name": "Araji", "entityType": "titan", "level": 94, "power": 68000, "star": 6, "xp": 430000, "soulStones": 25, "element": "fire" },
+    { "id": 4023, "name": "Eden", "entityType": "titan", "level": 96, "power": 69000, "star": 6, "xp": 455000, "soulStones": 20, "element": "earth" },
+    { "id": 4022, "name": "Avalon", "entityType": "titan", "level": 88, "power": 48000, "star": 5, "xp": 360000, "soulStones": 65, "element": "earth" }
+  ],
+  "pets": [
+    { "id": 6000, "name": "Fenris", "entityType": "pet", "level": 100, "power": 45000, "star": 6, "color": 12, "xp": 300000, "soulStones": 40, "patronagePower": 12000 },
+    { "id": 6001, "name": "Oliver", "entityType": "pet", "level": 95, "power": 41000, "star": 5, "color": 11, "xp": 270000, "soulStones": 70, "patronagePower": 10500 },
+    { "id": 6002, "name": "Merlin", "entityType": "pet", "level": 90, "power": 38000, "star": 5, "color": 10, "xp": 240000, "soulStones": 55, "patronagePower": 9800 },
+    { "id": 6006, "name": "Axel", "entityType": "pet", "level": 98, "power": 43000, "star": 6, "color": 12, "xp": 290000, "soulStones": 35, "patronagePower": 11500 }
+  ]
+}
