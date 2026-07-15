@@ -19,6 +19,16 @@ respective owners. This project is not affiliated with or endorsed by Nexters.
 
 See [PRIVACY.md](PRIVACY.md) and [extension/SECURITY.md](extension/SECURITY.md).
 
+## Support this project
+
+Hero Wars Snapshot is free to use and all features remain available without
+payment. If it helps you, you can optionally support continued development:
+
+[Support Game Tool Works on Buy Me a Coffee](https://buymeacoffee.com/gametoolworks)
+
+Support is voluntary, does not unlock features, and is handled entirely by Buy
+Me a Coffee. No extension snapshot data is included when opening the link.
+
 ## Local installation
 
 1. Open `chrome://extensions`.
